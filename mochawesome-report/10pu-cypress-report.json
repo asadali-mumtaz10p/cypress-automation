@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-07-24T20:24:56.760Z",
+    "end": "2023-07-24T20:25:51.074Z",
+    "duration": 54314,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "f08c651e-ad30-4849-a0f8-ab865e409607",
+      "title": "",
+      "fullFile": "cypress/integration/test.spec.js",
+      "file": "cypress/integration/test.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "af38bdde-54ae-402f-aa72-a06a589acd08",
+          "title": "My Test Suite",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Interact with the elements",
+              "fullTitle": "My Test Suite Interact with the elements",
+              "timedOut": null,
+              "duration": 54295,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "0acdc525-4f3e-44a3-9b05-f302bb9e9c95",
+              "parentUUID": "af38bdde-54ae-402f-aa72-a06a589acd08",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "0acdc525-4f3e-44a3-9b05-f302bb9e9c95"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 54295,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "10pu-cypress-report",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": false
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "code": false,
+        "overwrite": false,
+        "reportFilename": "10pu-cypress-report",
+        "autoOpen": true,
+        "charts": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
