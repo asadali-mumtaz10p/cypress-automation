@@ -1,0 +1,9 @@
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "EmailAdd": "testinguser1@yopmail.com",
+  "Mobile": "923331234567",
+  "Subject": "Cypress Automation",
+  "Address": "testing address",
+  "body": "Fixtures are a great way to mock data for responses to routes"
+}
