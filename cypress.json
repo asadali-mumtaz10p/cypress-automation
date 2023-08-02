@@ -1,0 +1,15 @@
+{
+    "watchForFileChanges" : false,
+    "responseTimeout" : 60000,
+    "screenshotOnRunFailure": false,
+    "video" : false,
+    "baseUrl" : "https://demoqa.com/automation-practice-form",
+    "reporter": "mochawesome",
+    "reporterOptions":{
+        "code": false,
+        "overwrite":false,
+        "reportFilename": "10pu-cypress-report",
+        "autoOpen": true,
+        "charts": true
+    }
+}
